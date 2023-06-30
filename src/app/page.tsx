@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Home = () => {
   const [showThemes, setShowThemes] = useState(false);
-  const [showTrivia, setShowTrivia] = useState(true);
+  const [showTrivia, setShowTrivia] = useState(false);
   const [showGetInvolved, setShowGetInvolved] = useState(false);
 
   const handleThemesClick = () => {
